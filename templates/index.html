@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>英語 問題</h1>
+<a href="/input" class="btn btn-primary">問題 新規追加</a>
+<a href="/confirm_test" class="btn btn-danger">確認テスト</a>
+
+<table class="table">
+    <thead>
+        <th> # </th>
+        <th>日本語</th>
+        <th>英語</th>
+        <td></td>
+        <td></td>
+    </thead>
+    <tbody>
+        {% for item in items %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ item.japanese_sentence }}</td>
+                <td>{{ item.english_sentence }}</td>
+                <td><a href="/update/{{ item.id }}" class="btn btn-success">更新</a></td>
+                <td><a href="/delete/{{ item.id }}" class="btn btn-danger">削除</a></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

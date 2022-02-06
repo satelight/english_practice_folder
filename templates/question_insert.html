@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+{% block content %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<h3>文章新規追加フォーム</h3>
+<br>
+<a href="/" class="btn btn-primary">戻る</a>
+<br>
+<br>
+<form method="POST" action="/input">
+    <div class="form-group">
+        <label for="japanese_sentence">日本語の文章:</label>
+        <input type="text" class="form-control" name="japanese_sentence" required>
+    </div>
+    <div class="form-group">
+        <label for="english_sentence">英語の文章:</label>
+        <input type="text" class="form-control" name="english_sentence" required>
+    </div>
+    <br>
+    <!-- <button class="btn btn-primary" name="once">新規追加</button> -->
+    <button class="btn btn-primary" name="continue">続けて新規追加</button>
+
+</form>
+
+<table class="table">
+    <thead>
+        <th> # </th>
+        <th>日本語</th>
+        <th>英語</th>
+        <td></td>
+    </thead>
+    <tbody>
+        {% for item in items %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ item.japanese_sentence }}</td>
+            <td>{{ item.english_sentence }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<script>
+    $('.button').on('click', function () {
+            $.ajax({
+                url: $(this).parent('form').attr('action'),
+                type: 'post',
+                data: $(this).parent('form').serialize()
+            });
+        });
+</script>
+{% endblock %}
+

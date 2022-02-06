@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>英語でなんという？</h1>
+<a href="/" class="btn btn-primary"><<</a>
+{% for item in items %}
+    <table class="table">
+        <thead>
+            <th>問題{{ loop.index }}：{{ item.japanese_sentence }}</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input type="text" class="form-control"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <div onclick="obj=document.getElementById('open{{ loop.index }}').style; obj.display=(obj.display=='none')?'block':'none';">
+                    <a style="cursor:pointer;" class="btn btn-primary">↓</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- 折り畳まれ部分 -->
+                <div id="open{{ loop.index }}" style="display:none;clear:both;">{{ item.english_sentence }}</div>
+                <!--// 折り畳まれ部分 -->
+            </td>
+        </tr>
+    </tbody>
+</table>
+{% endfor %}
+{% endblock %}
