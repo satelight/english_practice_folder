@@ -1,0 +1,308 @@
+{
+    "data.id": {
+        "0": {
+            "english_sentence": "Where does this bus go?",
+            "japanese_sentence": "このバスはどこへ行きますか？"
+        },
+        "1": {
+            "english_sentence": "When's the express train coming?",
+            "japanese_sentence": "急行はいつきますか？"
+        },
+        "2": {
+            "english_sentence": "Where to?",
+            "japanese_sentence": "どこまでいきますか？"
+        },
+        "3": {
+            "english_sentence": "where do you wanna go?",
+            "japanese_sentence": "どこに行きたい？"
+        },
+        "4": {
+            "english_sentence": "Whenever you wanna go.",
+            "japanese_sentence": "君の行きたいところへ"
+        },
+        "5": {
+            "english_sentence": "I ran out of gas.",
+            "japanese_sentence": "ガス欠だ"
+        },
+        "6": {
+            "english_sentence": "You have no sense of direction at all.",
+            "japanese_sentence": "もう、方向音痴なんだから。"
+        },
+        "7": {
+            "english_sentence": "Any plans for winter vacation?",
+            "japanese_sentence": "冬休みの予定は？"
+        },
+        "8": {
+            "english_sentence": "I haven't decided yet.",
+            "japanese_sentence": "まだ決まってないよ"
+        },
+        "9": {
+            "english_sentence": "It's a walkable distance from here.",
+            "japanese_sentence": "ここから歩いて行ける距離です。"
+        },
+        "10": {
+            "english_sentence": "What should we have?",
+            "japanese_sentence": "何を食べようか？"
+        },
+        "11": {
+            "english_sentence": "What do you feel like having?",
+            "japanese_sentence": "何を食べたい？"
+        },
+        "12": {
+            "english_sentence": "Are you a picky eater?",
+            "japanese_sentence": "好き嫌いとかある？"
+        },
+        "13": {
+            "english_sentence": "I'd like to make a reservation for tomorrow.",
+            "japanese_sentence": "明日の予約をしたいのですが？"
+        },
+        "14": {
+            "english_sentence": "How many in your party?",
+            "japanese_sentence": "何名様ですか？"
+        },
+        "15": {
+            "english_sentence": "Could I get a menu, please?",
+            "japanese_sentence": "メニューをください"
+        },
+        "16": {
+            "english_sentence": "Could we order,please?",
+            "japanese_sentence": "注文をお願いします"
+        },
+        "17": {
+            "english_sentence": "What kind of food is that?",
+            "japanese_sentence": "それはどんな料理ですか？"
+        },
+        "18": {
+            "english_sentence": "Alright then,I'll have that,please",
+            "japanese_sentence": "じゃあ、それをひとつ"
+        },
+        "19": {
+            "english_sentence": "With French fries,please",
+            "japanese_sentence": "フライドポテトもお願いします"
+        },
+        "20": {
+            "english_sentence": "Would you care for some soup?",
+            "japanese_sentence": "スープはよろしいですか？"
+        },
+        "21": {
+            "english_sentence": "I wonder where our food is.",
+            "japanese_sentence": "料理はまだかな"
+        },
+        "22": {
+            "english_sentence": "It smells really good.",
+            "japanese_sentence": "とってもいい匂いだね"
+        },
+        "23": {
+            "english_sentence": "I'll have another beer,please.",
+            "japanese_sentence": "ビールをもう１杯"
+        },
+        "24": {
+            "english_sentence": "I'm full",
+            "japanese_sentence": "おなかがいっぱい"
+        },
+        "25": {
+            "english_sentence": "I'ｍ drunk",
+            "japanese_sentence": "酔っぱらう"
+        },
+        "26": {
+            "english_sentence": "Could I get the check,please?",
+            "japanese_sentence": "お会計をお願いします"
+        },
+        "27": {
+            "english_sentence": "Can I ask you a favor?",
+            "japanese_sentence": "ちょっとお願いがあります"
+        },
+        "28": {
+            "english_sentence": "Do you have a minute?",
+            "japanese_sentence": "ちょっといい？"
+        },
+        "29": {
+            "english_sentence": "what should we have done?",
+            "japanese_sentence": "何をしたらいいのか"
+        },
+        "30": {
+            "english_sentence": "what does this do",
+            "japanese_sentence": "これはなにをするものか？"
+        },
+        "31": {
+            "english_sentence": "There is little crime of any type",
+            "japanese_sentence": "犯罪はとても少ない"
+        },
+        "32": {
+            "english_sentence": "Could you say that again?",
+            "japanese_sentence": "もう一度言ってもらえますか"
+        },
+        "33": {
+            "english_sentence": "I’m happy to hear that.",
+            "japanese_sentence": "それを聞けてうれしいです。"
+        },
+        "34": {
+            "english_sentence": "Are you done with your homework?",
+            "japanese_sentence": "宿題終わった？"
+        },
+        "35": {
+            "english_sentence": "I’m doing well.",
+            "japanese_sentence": "元気にやってます。"
+        },
+        "36": {
+            "english_sentence": "I’m here on business.",
+            "japanese_sentence": "仕事で来ました"
+        },
+        "37": {
+            "english_sentence": "I can’t find my baggage",
+            "japanese_sentence": "私の荷物が見つかりません。"
+        },
+        "38": {
+            "english_sentence": "Could you keep my baggage?",
+            "japanese_sentence": "荷物を預かってもらえますか？"
+        },
+        "39": {
+            "english_sentence": "How much is it per night?",
+            "japanese_sentence": "1泊いくらですか？"
+        },
+        "40": {
+            "english_sentence": "Are there any restaurants around here?",
+            "japanese_sentence": "この辺りにレストランはありますか？"
+        },
+        "41": {
+            "english_sentence": "How long is the wait?",
+            "japanese_sentence": "待ち時間はどのぐらいですか？"
+        },
+        "42": {
+            "english_sentence": "Can I get the bill?",
+            "japanese_sentence": "お会計お願いします。"
+        },
+        "43": {
+            "english_sentence": "I think there are regional differences.",
+            "japanese_sentence": "地域差もあると思います。"
+        },
+        "44": {
+            "english_sentence": "most people here say \"bill\"",
+            "japanese_sentence": "ほとんどの人が \"bill \"と言う"
+        },
+        "45": {
+            "english_sentence": "When I'm in the US,I hear \"check\" more",
+            "japanese_sentence": "アメリカにいると、\"check \"という言葉をよく耳にします。"
+        },
+        "46": {
+            "english_sentence": "They mean the same thing.",
+            "japanese_sentence": "同じことを意味する"
+        },
+        "47": {
+            "english_sentence": "As she says, Americans use \"check\", Canadians use \"bill\"",
+            "japanese_sentence": "彼女が言うように、アメリカ人は \"check\"、カナダ人は \"bill \"を使う。"
+        },
+        "48": {
+            "english_sentence": "\"Do\" is used for an action and \"make\" is used for creating something",
+            "japanese_sentence": "\"Do \"は行動、\"make \"は何かを作るときに使います。"
+        },
+        "49": {
+            "english_sentence": "there are some exceptions but these are the base cases",
+            "japanese_sentence": "一部例外もありますが、基本的なケースです。"
+        },
+        "50": {
+            "english_sentence": "What do you want to drink?",
+            "japanese_sentence": "何飲む？"
+        },
+        "51": {
+            "english_sentence": "Aren't you cold?",
+            "japanese_sentence": "寒くない？"
+        },
+        "52": {
+            "english_sentence": "I'm freezing.",
+            "japanese_sentence": "超寒い"
+        },
+        "53": {
+            "english_sentence": "Did I make you wait?",
+            "japanese_sentence": "待った？"
+        },
+        "54": {
+            "english_sentence": "Are you having a good time?",
+            "japanese_sentence": "楽しんでますか？"
+        },
+        "55": {
+            "english_sentence": "Are you feeling OK?",
+            "japanese_sentence": "気分悪くない？"
+        },
+        "56": {
+            "english_sentence": "Shall we take a break?",
+            "japanese_sentence": "一休みしない？"
+        },
+        "57": {
+            "english_sentence": "take care of youself",
+            "japanese_sentence": "お大事にしてください"
+        },
+        "58": {
+            "english_sentence": "I'll take you to someone who knows more",
+            "japanese_sentence": "もっと詳しい人を紹介する"
+        },
+        "59": {
+            "english_sentence": "How much is it going to cost.",
+            "japanese_sentence": "いくらかかるんだ。"
+        },
+        "60": {
+            "english_sentence": "Can you get me a coffee?",
+            "japanese_sentence": "私にコーヒーを買ってきてくれる？"
+        },
+        "61": {
+            "english_sentence": "while you’re at it",
+            "japanese_sentence": "ついでに"
+        },
+        "62": {
+            "english_sentence": "How far is the main road",
+            "japanese_sentence": "大通りまでどれくらいありますか"
+        },
+        "63": {
+            "english_sentence": "When is the deadline?",
+            "japanese_sentence": "締め切りはいつですか？"
+        },
+        "64": {
+            "english_sentence": "Do you know where that hotel is?",
+            "japanese_sentence": "ホテルの場所はわかりますか？"
+        },
+        "65": {
+            "english_sentence": "Do you stop here?",
+            "japanese_sentence": "（バスの運転手などに）ここには行きますか？"
+        },
+        "66": {
+            "english_sentence": "What kinds of video games do you like? ",
+            "japanese_sentence": "どんなゲームが好き？"
+        },
+        "67": {
+            "english_sentence": "I want to learn from you",
+            "japanese_sentence": "あなたから学びたい"
+        },
+        "68": {
+            "english_sentence": "I hate waiting for people who are late",
+            "japanese_sentence": "遅刻した人を待つの大嫌い"
+        },
+        "69": {
+            "english_sentence": "It's such a waste of time.",
+            "japanese_sentence": "時間の無駄"
+        },
+        "70": {
+            "english_sentence": "San Francisco is known as a very liberal city.",
+            "japanese_sentence": "サンフランシスコはとても自由な街として知られている。"
+        },
+        "71": {
+            "english_sentence": "I gave my girlfriend a lift to the airport.",
+            "japanese_sentence": "私は彼女を車で空港まで送った。"
+        },
+        "72": {
+            "english_sentence": "Death is a certainty for all of us.",
+            "japanese_sentence": "死は、私たちみんなにとって確実なことだ。"
+        },
+        "73": {
+            "english_sentence": "I'll have the report ready by five.",
+            "japanese_sentence": "５時までに報告書を準備しておきます。"
+        },
+        "74": {
+            "english_sentence": "The pizza at this restaurant is as good as in Italy.",
+            "japanese_sentence": "このレストランのピザはイタリアのと同じくらい美味しい。"
+        },
+        "75": {
+            "english_sentence": "I keep a diary to remind myself of my appointments.",
+            "japanese_sentence": "私は約束を思い出せるように、スケジュール帳をつけている。"
+        }
+    }
+}
